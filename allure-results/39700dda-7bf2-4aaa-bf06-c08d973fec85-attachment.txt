@@ -1,0 +1,14 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                    Test Method: 'Tests.sign_up.admin_login'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Type "Enter here" @08-11-2024 23:01:38.0921 PM
+[ReportManager] Type "Enter here" @08-11-2024 23:01:39.0176 PM
+[ReportManager] Click "LOGIN Ã¢Â€ Â€™" @08-11-2024 23:01:43.0033 PM
+[ReportManager] Assert that the element located by "By.xpath: //*[@id="collapsibleNavbar"]/ul/li[1]/a" is visible; hidden attribute is equal to "null". @08-11-2024 23:01:43.0148 PM
+[ReportManager] Expected "null", and actual "null" @08-11-2024 23:01:43.0892 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_23-01-47-339_08112024' @08-11-2024 23:01:47.0339 PM
+[ReportManager] Expected "null", and actual "null" @08-11-2024 23:01:47.0339 PM
+[ReportManager] Assertion passed @08-11-2024 23:01:47.0339 PM
