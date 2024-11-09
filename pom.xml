@@ -21,7 +21,7 @@
 		<dependency>
 			<groupId>io.github.shafthq</groupId>
 			<artifactId>SHAFT_ENGINE</artifactId>
-			<version>8.4.20241024</version>
+			<version>${shaft_engine.version}</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -29,10 +29,10 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
+				<version>${maven-compiler-plugin.version}</version>
 				<configuration>
-					<source>17</source>
-					<target>17</target>
+					<source>21</source>
+					<target>21</target>
 					<encoding>UTF-8</encoding>
 					<meminitial>4096m</meminitial>
 				</configuration>
