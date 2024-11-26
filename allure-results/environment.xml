@@ -38,7 +38,7 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>org.testng.remote.RemoteTestNG -usedefaultlisteners false -listener com.shaft.listeners.TestNGListener -serport 62106 -protocol json -d D:\project MD voice\Test Automation Framework\SHAFT_ENGINE\test-output D:\project MD voice\Test Automation Framework\SHAFT_ENGINE\src\test\java\testexecution.xml</value>
+    <value>org.testng.remote.RemoteTestNG -usedefaultlisteners false -listener com.shaft.listeners.TestNGListener -serport 61437 -protocol json -d D:\project MD voice\Test Automation Framework\SHAFT_ENGINE\test-output D:\project MD voice\Test Automation Framework\SHAFT_ENGINE\src\test\java\CVB_Regression</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -54,7 +54,7 @@
   </parameter>
   <parameter>
     <key>java.version.date</key>
-    <value>2023-10-17</value>
+    <value>2024-10-15</value>
   </parameter>
   <parameter>
     <key>java.home</key>
@@ -86,7 +86,7 @@
   </parameter>
   <parameter>
     <key>java.runtime.version</key>
-    <value>21.0.1+12-LTS-29</value>
+    <value>21.0.5+9-LTS-239</value>
   </parameter>
   <parameter>
     <key>appender.file.fileName</key>
@@ -110,7 +110,7 @@
   </parameter>
   <parameter>
     <key>java.version</key>
-    <value>21.0.1</value>
+    <value>21.0.5</value>
   </parameter>
   <parameter>
     <key>java.vm.specification.name</key>
@@ -122,7 +122,7 @@
   </parameter>
   <parameter>
     <key>java.library.path</key>
-    <value>C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-21/bin/server;C:/Program Files/Java/jdk-21/bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\OpenLogic\jre-11.0.21.9-hotspot\bin;C:\Program Files\OpenLogic\jdk-11.0.21.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Karee\Downloads\apache-maven-3.9.2-bin\apache-maven-3.9.2\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Tailscale\;C:\Users\Karee\Downloads\platform-tools-latest-windows\platform-tools\;C:\Program Files\Git\cmd;C:\Users\Karee\AppData\Local\Microsoft\WindowsApps;C:\Users\Karee\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\bin;;C:\Users\Karee\Downloads\platform-tools-latest-windows\platform-tools\adb.exe;C:\Users\Karee\AppData\Local\GitHubDesktop\bin;C:\Windows\System32;;.</value>
+    <value>C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-21/bin/server;C:/Program Files/Java/jdk-21/bin;C:\Program Files\Java\jdk-21\bin;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Karee\Downloads\apache-maven-3.9.2-bin\apache-maven-3.9.2\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Tailscale\;C:\Users\Karee\Downloads\platform-tools-latest-windows\platform-tools\;C:\Program Files\Git\cmd;C:\Users\Karee\AppData\Local\Microsoft\WindowsApps;C:\Users\Karee\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\bin;;C:\Users\Karee\Downloads\platform-tools-latest-windows\platform-tools\adb.exe;C:\Users\Karee\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-21\bin;;C:\WINDOWS\system32;;.</value>
   </parameter>
   <parameter>
     <key>CUCUMBER_PUBLISH_ENABLED</key>
@@ -350,7 +350,7 @@
   </parameter>
   <parameter>
     <key>java.vm.version</key>
-    <value>21.0.1+12-LTS-29</value>
+    <value>21.0.5+9-LTS-239</value>
   </parameter>
   <parameter>
     <key>cucumber.glue</key>
