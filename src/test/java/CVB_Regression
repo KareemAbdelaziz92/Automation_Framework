@@ -9,8 +9,8 @@
         <classes>
 
     <class name="Tests.sign_upTest">
-            <parameter name="loginname" value="superapp4"/>
-            <parameter name="password" value="Qwe123456"/>
+            <parameter name="loginname" value="vipinjoshi.joshi@gmail.com"/>
+            <parameter name="password" value="vipin@123"/>
        
             </class>
    
