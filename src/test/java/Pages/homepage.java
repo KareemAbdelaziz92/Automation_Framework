@@ -37,10 +37,4 @@ public class homepage {
     private final By termsAndCondition = By.xpath("//button[contains(text(),'Terms and conditions')]");
     private final By privacyPolicy = By.xpath("//button[contains(text(),'Privacy Policy')]");
     private final By onlineSecurityOverview = By.xpath("//button[contains(text(),'Online Security Overview')]");
-     //String username = "vipinjoshi.joshi@gmail.com" ;
-	//String password = "vipin@123";
-
-
-
-	
 }

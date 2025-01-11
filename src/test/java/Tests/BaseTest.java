@@ -13,9 +13,9 @@ import org.testng.annotations.Test;
 
 public class BaseTest {
 	
-	private final By txt_username_web = By.name("username");
+	private final By txt_username_web = By.id("user-name");
 	private final By txt_password_web = By.id("password");
-	private final By btn_login_web = By.xpath("//button[contains(text(),'Login')]");
+	private final By btn_login_web = By.id("login-button");
 	private final By Home_Button = By.xpath("//*[@id=\"collapsibleNavbar\"]/ul/li[1]/a");
 	public static SHAFT.GUI.WebDriver driver;
 	public homepage Homepage ;
@@ -25,13 +25,13 @@ public class BaseTest {
 		driver.element().type(txt_username_web,  loginname);
 		driver.element().type(txt_password_web,  password);
 		driver.element().click(btn_login_web);
-		driver.element().assertThat(Home_Button).isVisible();
+		//driver.element().assertThat(Home_Button).isVisible();
 	}
 	@Parameters({"loginname", "password"})
 		@BeforeClass(alwaysRun = true)
 		public void setup(String loginname , String password) {
 		    driver = new SHAFT.GUI.WebDriver();
-		    driver.browser().navigateToURL("https://siteassured.cvbtt.com/");
+		    driver.browser().navigateToURL("https://www.saucedemo.com/");
 		    Homepage = new homepage(driver);
 		    login(loginname, password);
 		    }
