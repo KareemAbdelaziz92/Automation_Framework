@@ -9,6 +9,7 @@
         <classes>
 
     <class name="Tests.sign_upTest">
+
             <parameter name="loginname" value="standard_user"/>
             <parameter name="password" value="secret_sauce"/>
        
@@ -16,4 +17,7 @@
    
         </classes>
     </test>
+
 </suite>
+
+
