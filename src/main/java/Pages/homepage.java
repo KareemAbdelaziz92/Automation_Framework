@@ -27,9 +27,9 @@ public class homepage {
 	private final By Contract_Holder_link = By.xpath("//span[contains(text(),'Contract Holder')]");
 	private final By Contractor_Manager_link = By.xpath("//span[contains(text(),'Contractor Manager')]");
 	private final By CVB_Administrator = By.xpath("(//span[contains(text(),'CVB Administrator')])[2]");
-    private final By CVB_Manager_link = By.xpath("//span[contains(text(),'CVB Manager')]");
-    private final By CVB_User_link = By.xpath("//span[contains(text(),'CVB User')]");
-    private final By Employee_link = By.xpath("//span[text()='Employee']");
+        private final By CVB_Manager_link = By.xpath("//span[contains(text(),'CVB Manager')]");
+        private final By CVB_User_link = By.xpath("//span[contains(text(),'CVB User')]");
+        private final By Employee_link = By.xpath("//span[text()='Employee']");
 	private final By Hiring_Company_Manager_link = By.xpath("//span[contains(text(),'Hiring Company Manager')]");
 	private final By Recruiter_Company_User_link = By.xpath("//span[contains(text(),'Recruiter Company User')]");
 	private final By Site_Access_Approval_link = By.xpath("//span[contains(text(),'Site Access Approver')]");
@@ -53,9 +53,6 @@ public class homepage {
 	private final By employee_training_attendance_link = By.xpath("//span[contains(text(),'Employee Training Attendance ')]");
 	private final By Attendus_button = By.xpath("//a[contains(text(),'Attendus')]");
 
-
-
-
 	public void verify_navigation_to_Employee_Page()  {
 
 	driver.element().waitToBeReady(User_Roles_link);
@@ -64,7 +61,7 @@ public class homepage {
 	driver.element().assertThat(Employee_page).isVisible();
 
 	}
-public void verify_navigation_to_CVB_Admin_Page(){
+        public void verify_navigation_to_CVB_Admin_Page(){
 
 		driver.element().waitToBeReady(User_Roles_link);
 		driver.element().click(User_Roles_link);
