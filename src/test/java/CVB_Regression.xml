@@ -8,17 +8,9 @@
  
         <classes>
 
-       <!--   <class name="Tests.homepage_test">
-            <parameter name="loginname" value="kemad@cvbtt.com"/>
-            <parameter name="password" value="Test1234@@"/>
-            </class>
-            <class name="Tests.employee_test">
-                     <parameter name="loginname" value="kemad@cvbtt.com"/>
-                     <parameter name="password" value="Test1234@@"/>
-                 </class>-->
         <class name="Tests.employee_training_module_test">
-            <parameter name="loginname" value="kemad@cvbtt.com"/>
-            <parameter name="password" value="Test1234"/>
+            <parameter name="loginname" value=""/>
+            <parameter name="password" value=""/>
         </class>
     </classes>
          </test>
