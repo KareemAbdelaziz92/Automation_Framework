@@ -78,7 +78,7 @@ public class BaseTest {
 		@BeforeClass(alwaysRun = true)
 		public void setup(String loginname , String password) throws InterruptedException {
 		System.setProperty("browserType", "firefox");
-		System.setProperty("headlessExecution", "true");  // هذا السطر هو المهم
+		System.setProperty("headlessExecution", "true");  
 		System.setProperty("shaft.browser.headless", "true");
 		System.setProperty("shaft.browser.arguments", "--no-sandbox,--disable-dev-shm-usage,--disable-gpu,--window-size=1920,1080");
 
