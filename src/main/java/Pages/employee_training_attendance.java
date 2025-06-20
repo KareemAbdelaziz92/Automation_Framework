@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.support.ui.Select;
 
 public class employee_training_attendance extends homepage {
@@ -58,8 +57,6 @@ public class employee_training_attendance extends homepage {
     private final By update_icon= By.xpath("//a[@class='dropdown-item' and @href='https://demo.siteassured.cvbtt.com/employee/training/attendus/edit/35']");
     private final By delete_button= By.xpath("//*[@id=\"tbodydata\"]/tr[1]/td[9]/div/div/form/button");
     private final By update_button= By.xpath("//*[@id=\"tbodydata\"]/tr[1]/td[9]/div/div/a");
-//li[text()='Lois Mayroo (Bolt E&I Limited)']
-//*[@id="select2-employee_id-result-28qe-560"]
 
     public void Add_employee()  {
 
