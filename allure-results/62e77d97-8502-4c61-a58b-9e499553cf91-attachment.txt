@@ -1,0 +1,15 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 13' test cases in the current suite                                        
+                                    Test Method: 'Tests.homepage_test.verify_navigation_to_Global_User_list'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"... @20-06-2025 23:49:21.0168 PM
+[ReportManager] Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles". @20-06-2025 23:49:21.0240 PM
+[ReportManager] Click " icon User Roles" @20-06-2025 23:49:21.0789 PM
+[ReportManager] Click "By.xpath: //span[contains(text(),'Global Users')]" @20-06-2025 23:49:23.0257 PM
+[ReportManager] Assert that the element located by "By.xpath: //h3[contains(text(),'MANAGE GLOBAL ROLES')]" is visible; hidden attribute is equal to "null". @20-06-2025 23:49:23.0260 PM
+[ReportManager] Expected "null", and actual "null" @20-06-2025 23:49:23.0353 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_23-49-23-819_20062025' @20-06-2025 23:49:23.0821 PM
+[ReportManager] Expected "null", and actual "null" @20-06-2025 23:49:23.0821 PM
+[ReportManager] Assertion passed @20-06-2025 23:49:23.0822 PM

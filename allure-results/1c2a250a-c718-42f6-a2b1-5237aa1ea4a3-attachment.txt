@@ -1,0 +1,15 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '9 out of 13' test cases in the current suite                                        
+                               Test Method: 'Tests.homepage_test.verify_navigation_to_Recruiter_Company_User_page'                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"... @20-06-2025 23:45:30.0303 PM
+[ReportManager] Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles". @20-06-2025 23:45:30.0411 PM
+[ReportManager] Click " icon User Roles" @20-06-2025 23:45:31.0571 PM
+[ReportManager] Click "By.xpath: //span[contains(text(),'Recruiter Company User')]" @20-06-2025 23:45:33.0038 PM
+[ReportManager] Assert that the element located by "By.xpath: //h3[contains(text(),'Recruiter Company User')]" is visible; hidden attribute is equal to "null". @20-06-2025 23:45:33.0040 PM
+[ReportManager] Expected "null", and actual "null" @20-06-2025 23:45:33.0658 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_23-45-33-950_20062025' @20-06-2025 23:45:33.0951 PM
+[ReportManager] Expected "null", and actual "null" @20-06-2025 23:45:33.0951 PM
+[ReportManager] Assertion passed @20-06-2025 23:45:33.0951 PM

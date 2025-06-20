@@ -1,0 +1,12 @@
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @20-06-2025 23:48:46.0492 PM
+[ReportManager] Setting "screenshotParams_scalingFactor" property with "1.5". @20-06-2025 23:48:46.0656 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {log: {level: warn}, prefs: {remote.active-protocols: 3}, profile: UEsDBBQACAgIABe+1FoAAAAAAAA...}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @20-06-2025 23:48:47.0262 PM
+[ReportManager] Attempting to run locally on: "Windows | Firefox". @20-06-2025 23:48:47.0264 PM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @20-06-2025 23:48:47.0264 PM
+[ReportManager] Successfully Opened: "Windows | Firefox". @20-06-2025 23:48:53.0057 PM
+[ReportManager] Target URL: "https://demo.siteassured.cvbtt.com/" @20-06-2025 23:48:53.0114 PM
+[ReportManager] Initial URL: "about:blank" @20-06-2025 23:48:53.0157 PM
+[ReportManager] Navigate to url "https://demo.siteassured.cvbtt.com/". @20-06-2025 23:48:56.0239 PM
+[ReportManager] Type "Enter here" @20-06-2025 23:48:56.0479 PM
+[ReportManager] Type "Enter here" @20-06-2025 23:48:56.0566 PM
+[ReportManager] Click "LOGINÃ¢Â€ Â€™" @20-06-2025 23:48:58.0575 PM

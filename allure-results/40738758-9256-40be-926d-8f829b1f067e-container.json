@@ -1,0 +1,1 @@
+{"uuid":"40738758-9256-40be-926d-8f829b1f067e","name":"WEB_Regression_Pack","children":["a6cc0e61-e793-418c-b1a7-aacb838eb29e"],"befores":[{"name":"clearCustomReport","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750452526130,"stop":1750452526147}],"afters":[],"start":1750452526006,"stop":1750452585413}
