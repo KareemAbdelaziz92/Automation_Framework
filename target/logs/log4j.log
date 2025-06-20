@@ -1,183 +1,484 @@
-[INFO ] 2024-11-24 15:37:43.914 [main] ReportManager - 
+[INFO ] 2025-06-20 21:02:10.082 [main] ReportManager - 
 [0;7m------------------------------------------------------------------------------------------------------------------------------------------------
                                                     Powered by [1mSHAFT v.8.4.20241024[22m                                                    
                                    Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
 ------------------------------------------------------------------------------------------------------------------------------------------------
 [0m
-[INFO ] 2024-11-24 15:37:43.936 [] ReportManager - Checking for engine updates...
-[INFO ] 2024-11-24 15:37:43.956 [] ReportManager - Initializing Summary Reporting Environment...
-[INFO ] 2024-11-24 15:37:43.974 [] ReportManager - Initializing Allure Reporting Environment...
-[INFO ] 2024-11-24 15:37:43.988 [main] ReportManager - TestNG run detected...
-[INFO ] 2024-11-24 15:37:44.430 [main] Utils - [TestNG] Running:
-  D:\project MD voice\Test Automation Framework\SHAFT_ENGINE\src\test\java\CVB_Regression
+[INFO ] 2025-06-20 21:02:10.094 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-06-20 21:02:10.128 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-06-20 21:02:10.143 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-06-20 21:02:10.159 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-06-20 21:02:10.900 [main] Utils - [TestNG] Running:
+  D:\project CVB\Site Assured QA framework\CVB_Regression.xml
 
-[INFO ] 2024-11-24 15:37:44.501 [main] ReportManager - 
+[INFO ] 2025-06-20 21:02:10.966 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                         Starting execution of clear custom report configuration method                                         
+                                                     'Tests.homepage_test.clearCustomReport'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:02:11.284 [main] ReportManager - 
 [0;7m------------------------------------------------------------------------------------------------------------------------------------------------
                                              Starting execution of suite setup configuration method                                             
                                           'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
 ------------------------------------------------------------------------------------------------------------------------------------------------
 [0m
-[INFO ] 2024-11-24 15:37:44.582 [main] ReportManager - Initializing Properties...
-[INFO ] 2024-11-24 15:37:44.693 [] ReportManager - Loaded OpenCV "opencv_java490".
-[INFO ] 2024-11-24 15:37:44.744 [main] ReportManager - 
+[INFO ] 2025-06-20 21:02:11.292 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-06-20 21:02:11.562 [main] ReportManager - 
 [0;7m------------------------------------------------------------------------------------------------------------------------------------------------
                                                 Starting execution of setup configuration method                                                
-                                                            'Tests.sign_upTest.setup'                                                            
+                                                           'Tests.homepage_test.setup'                                                           
 ------------------------------------------------------------------------------------------------------------------------------------------------
 [0m
-[INFO ] 2024-11-24 15:37:44.773 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
-[INFO ] 2024-11-24 15:37:44.848 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.5".
-[INFO ] 2024-11-24 15:37:45.386 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: D:\project MD voice\Test Au..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
-[INFO ] 2024-11-24 15:37:45.388 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
-[INFO ] 2024-11-24 15:37:45.388 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
-[DEBUG] 2024-11-24 15:37:46.586 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
-[DEBUG] 2024-11-24 15:37:46.653 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
-[DEBUG] 2024-11-24 15:37:47.109 [] RequestAddCookies - CookieSpec selected: ignoreCookies
-[DEBUG] 2024-11-24 15:37:47.111 [] RequestAuthCache - Auth cache not set in the context
-[DEBUG] 2024-11-24 15:37:47.111 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
-[DEBUG] 2024-11-24 15:37:47.113 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-[DEBUG] 2024-11-24 15:37:47.113 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
-[DEBUG] 2024-11-24 15:37:47.113 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.117 [] wire -  >> "Accept: */*[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.117 [] wire -  >> "Host: api.github.com[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.117 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.117 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.117 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.117 [] wire -  >> "[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.117 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
-[DEBUG] 2024-11-24 15:37:47.118 [] headers - >> Accept: */*
-[DEBUG] 2024-11-24 15:37:47.118 [] headers - >> Host: api.github.com
-[DEBUG] 2024-11-24 15:37:47.118 [] headers - >> Connection: Keep-Alive
-[DEBUG] 2024-11-24 15:37:47.118 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)
-[DEBUG] 2024-11-24 15:37:47.118 [] headers - >> Accept-Encoding: gzip,deflate
-[DEBUG] 2024-11-24 15:37:47.455 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.457 [] wire -  << "Date: Sun, 24 Nov 2024 12:37:45 GMT[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.457 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.458 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.458 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.458 [] wire -  << "ETag: W/"e4e219c9681128a40033a958333db6680eb9149ed827998b6f7b01a71240a513"[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.458 [] wire -  << "Last-Modified: Thu, 24 Oct 2024 15:00:43 GMT[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.458 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.458 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.458 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.458 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.458 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.458 [] wire -  << "X-Frame-Options: deny[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.459 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.459 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.459 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.459 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.459 [] wire -  << "Content-Encoding: gzip[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.459 [] wire -  << "Server: github.com[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.459 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.459 [] wire -  << "X-RateLimit-Remaining: 54[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.460 [] wire -  << "X-RateLimit-Reset: 1732453911[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.460 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.460 [] wire -  << "X-RateLimit-Used: 6[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.460 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.460 [] wire -  << "Content-Length: 1988[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.460 [] wire -  << "X-GitHub-Request-Id: 2663:F0AA8:20CF20:3414B0:67431E19[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.460 [] wire -  << "[\r][\n]"
-[DEBUG] 2024-11-24 15:37:47.461 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-[DEBUG] 2024-11-24 15:37:47.461 [] headers - << HTTP/1.1 200 OK
-[DEBUG] 2024-11-24 15:37:47.461 [] headers - << Date: Sun, 24 Nov 2024 12:37:45 GMT
-[DEBUG] 2024-11-24 15:37:47.461 [] headers - << Content-Type: application/json; charset=utf-8
-[DEBUG] 2024-11-24 15:37:47.461 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
-[DEBUG] 2024-11-24 15:37:47.461 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
-[DEBUG] 2024-11-24 15:37:47.461 [] headers - << ETag: W/"e4e219c9681128a40033a958333db6680eb9149ed827998b6f7b01a71240a513"
-[DEBUG] 2024-11-24 15:37:47.461 [] headers - << Last-Modified: Thu, 24 Oct 2024 15:00:43 GMT
-[DEBUG] 2024-11-24 15:37:47.461 [] headers - << X-GitHub-Media-Type: github.v3; format=json
-[DEBUG] 2024-11-24 15:37:47.461 [] headers - << x-github-api-version-selected: 2022-11-28
-[DEBUG] 2024-11-24 15:37:47.462 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
-[DEBUG] 2024-11-24 15:37:47.462 [] headers - << Access-Control-Allow-Origin: *
-[DEBUG] 2024-11-24 15:37:47.462 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
-[DEBUG] 2024-11-24 15:37:47.463 [] headers - << X-Frame-Options: deny
-[DEBUG] 2024-11-24 15:37:47.463 [] headers - << X-Content-Type-Options: nosniff
-[DEBUG] 2024-11-24 15:37:47.463 [] headers - << X-XSS-Protection: 0
-[DEBUG] 2024-11-24 15:37:47.463 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
-[DEBUG] 2024-11-24 15:37:47.463 [] headers - << Content-Security-Policy: default-src 'none'
-[DEBUG] 2024-11-24 15:37:47.463 [] headers - << Content-Encoding: gzip
-[DEBUG] 2024-11-24 15:37:47.463 [] headers - << Server: github.com
-[DEBUG] 2024-11-24 15:37:47.463 [] headers - << X-RateLimit-Limit: 60
-[DEBUG] 2024-11-24 15:37:47.464 [] headers - << X-RateLimit-Remaining: 54
-[DEBUG] 2024-11-24 15:37:47.464 [] headers - << X-RateLimit-Reset: 1732453911
-[DEBUG] 2024-11-24 15:37:47.464 [] headers - << X-RateLimit-Resource: core
-[DEBUG] 2024-11-24 15:37:47.465 [] headers - << X-RateLimit-Used: 6
-[DEBUG] 2024-11-24 15:37:47.465 [] headers - << Accept-Ranges: bytes
-[DEBUG] 2024-11-24 15:37:47.465 [] headers - << Content-Length: 1988
-[DEBUG] 2024-11-24 15:37:47.465 [] headers - << X-GitHub-Request-Id: 2663:F0AA8:20CF20:3414B0:67431E19
-[DEBUG] 2024-11-24 15:37:47.479 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
-[DEBUG] 2024-11-24 15:37:47.480 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Yko[0xe3][0xb6][0x12][0xfd]+[0x82][0x8b][0xe2][0x2][0x8b][0x95],[0xd9][0xf2]#[0x2][0x8a][0xde]$vw[0x8b]n[0xb2][0xed]6Eq[0xfb][0x80]AI[0xb4]DG[0x12][0xb5]$[0xe5][0xac][0x1b][0xec][0xbf][0x87][0x94]"
-[DEBUG] 2024-11-24 15:37:47.481 [] wire -  << "[0x1c][0xc7][0x86][0x9b]x#[0xed][0x87]8[0xb4]l[0xcf][0xc][0xe7]q[0xe6]px[0xdf][0xab]D[0xd6][0xb]z[0xa9]R[0xa5][0xc][0xfa]}R2'a*[0xad]B'[0xe2]y_[0xd0][0x92][0xcb][0xfe][0xaf])Y[0xaa][0xb7][0xbf][0xf4]}{[0xfe][0xc3][0xcd]b~[0xfd][0xe6][0xc7][0xeb]9>[0xca]([0x91]T[0xf6][0xbd][0xa9]7[0x19][0xb9]#[0xdf][0xed][0xbd][0xee][0x11])[0xa9][0x92][0x8b][0xee]d[0xf6]k[0x89][0x10]][0x95][0x19]'[0xf1][0x81][0xe8][0xfa][0xa1]|[0xb1][0xc9][0x8d][0xf8][0xfb][0xef][0xb][0x92][0xd3][0xd7][0x19][0x9]i[0xf6][0x19][0xba]R[0x95]g[0x7][0x9a][0x1e]9[0xe5]iw([0x92][0xf4][0xa7][0x8e][0xef][0xc][0xdc][0x81][0xef][0xe1][0xf][0xe2]X[0xdc][0xb][0x1e][0xbc][0x4]'U*[0xe5][0xa2][0x17][0xdc][0xf7]2[0x9e][0xb0][0x2][0xde][0xaf][0x85][0xdb]$R[0x8c][0x17][0xf2][0xcf][0x90][0xab][0xbf][0x9b][0x9f][0xf9][0xde][0xf4]l:[0x98][0xe]^[0xf7][\n]"
-[DEBUG] 2024-11-24 15:37:47.481 [] wire -  << "[0x1e][0xd3][0x85][0x96][0xd4][0xbb][0x9a]][0x8d][0xc9][0xcf][0xdc][0xeb][0xd9][0xdc][0x93]l[0xde][0xcf]~[0xfc]N[0xfb]~M[0x14][0x11][0x87][0xbe]7[0xf][0xb7][0xe][0xaa]$[0x15][0x11]/[0x14]-[0x94][0x9]/+[0xfa][0xde]h8[0x9e]~[0xbf][0xfe]N[0xdb][0x99][0x88]F[0x86]Q[0xa3]}[0xfe]Tnha[0xb2][0xbf]o[0xfa][0xb7][0xa3][0xb][0x18][0xff][0xed]h[0xf6][0xac][0x13]IY[0x1e][0xfe][0x18][0xbf]Y[0xf2],[0xe3]w[0x90]{[0xb8][0x8d][0xfd][0xb4]|Ru[0xff]A[0xc8][0x83]@V$[0xed][0x5]B[0xc8]}[0x9f][0xab][0x94][0xc2][0xc7][0xd8][0xba][0xce][0x93][0x84][0xc9][0xe7][0xb2][0xfd]iS[0x8d][0x80]{8Q*[0xc4]V[0x8b][0x94][0x8][0x97][0xa0][0x87]y~P[0x96]O[0xb]mD[0xc0][0xd8][0xbb][0x2]v[0xde][0x9b]*6[0xb2][0xab]PF[0x82][0x95]&[0xcb][0xda]8dO[0x10][0x4]s[0x91][0x90][0x82][0xfd]CZ[0xb][0x86] [0x9]y[0x6]v[0xda][0x18]h[0x4]@[0x10]]#[0xd5][I[0xaa]%[0xdc][0xf7]K[0xc1][0xd6]$[0xda]h7[\n]"
-[DEBUG] 2024-11-24 15:37:47.481 [] wire -  << "[0x1a]Q[0xb6]F[0x8c][0xda]K?[0x10][0x5][0xe1]jSR[0x14][0xdf][0x5]Wx[0xa3][0xe3][0xbc]X3z[0xb7]h[0x1e][0x97]U[0x98][0xb1]H[0x87][0x92])[0xba] q[0xae][0xe1]cI2I??F[0x88][0xf][0xf3][0xc5][0xed][0xdd][0xec][0xfd][0xe5][0x1b]z3[0x96][0xfe]O[0xde]o[0xf2]J[0x8b]&[0xc9]B[0xe3][0x1c][0xc4][0x1f][0x0][0x14]r.[0xa1]j[0x1]H[0xc8][0x99]b2[0xc5]7r[0x2][0xd1][0x90]y[0xf4][0xfb][0xb1]@Ch[0x14][0xbf][0xee][0x95][0x82]6[0xcd][0xe0][0xe1]Q$(Q[0xf0][0x10][0xc1][0xb7]z[0x1a][0x9]m[0xcf][0xb5][0x7][0xfe][0x8d]7[\n]"
-[DEBUG] 2024-11-24 15:37:47.481 [] wire -  << "\7[0xf0][0xfc]? [0xda][0xec]E[0xa6][0xff][0xfa]-[0xa8][0xbf][0xd5][0xe0][0xf0][0xe7][0xdf]z[0x3]"$[0xd9]!2[0x9f][0xde][0xb2][0x9a][0xdf][0x1f][0xc2][0xf3]?[0xac]l%[0xb6][0xf9][0xfd][0xa1][0xd8][0x90][0xc7][0x1b][0xec][0xfe][0x9b]o[0xac][0xdf]S[0xa2][0xfe]#[0xad][0xcb][0x94][0x14][0x9][0x8d][0xff]*^Y[0x1f](bG[0xad][0xaa][0x4][0xe4][0xc6][0xd4][\n]"
-[DEBUG] 2024-11-24 15:37:47.481 [] wire -  << "7[0xd6][0xaf]xJB[0xbc]0j[0xb1][0xc2][0xda][0xf6][0xe3][0xe7][0xda]NYeY[0xdf][0x9b][0xc][0x86]Z[0xea]E[0x95][0x97][0x16][0x82][0xe8]$[0x9c]'[0x19]u"[0xb1])[0x15]w[0x14]+n[0x3][0xfd]b-[0x5][0xcf]-[0xcf][0xf1]|[0xc7][0xb3][0x14][0xd7][0xab][0x91][0xe3][0x1a][0xed]1-i[0x11][0x13][0x80][0xf7]K[0xb4][0x8f][0x1f][0xb4][0xa3][0x80][0x9d][\r][0xc9][0xb3]@[0x16][0xe4][0x96][0xea]U[0xad]t[0xe0][0xc][0xb4][0xc6][0x81]3[0xec]@[0xdd]hO[0x1d])I[0x94]R[0x7][0xbd][0x14][0xcd]4[0xd1][0xff][0xfd]U`^m[0xcf][0x19][0xd8]H[0x8f][0x7][0x13][0x86][0xf5][0xbe]a[0x8c][0xdf][0xc5][0xbe][0x87][0xde][0xa9][0x86]D\[0xd0][0xaf]f[0x85]{[0xaa][0x15]2[[0xfa][0xab][0x81][0xcd][0xf2]r[0x17][0x95][0x8e]]28;[0xd5][0x98][0xaf][0x18][0x97][0xc1]T[0x1b]![0xa8],i[0xa4][0xac]%[0x17][0x11][0xbd]Lit{C?[0xa9][0xdf][0x89][0xbc][0x1][0xc4][0xc6][0x97][0x1c]m6R[0xd9][0xa6]}[0xf1][\r][0x7]Z][0xc][0xa2][0x15][0x82][0x10][0xdf]P[0xb4][0xf4][0xe][0x84][0x9a][0x8a]68[0x8a][0xac][0xb6][\n]"
-[DEBUG] 2024-11-24 15:37:47.481 [] wire -  << "zg[0xa9][0x8e]$[0xfb]{![0x92][0xe0][0xf1][0x5][0xab][0xf2][0xf4][0xa3][0xb3]][0x6][0xdb][0x85][0xbd][0x2]![0xac][0xf3][0x16][0x84]V[0xd7][0xc]j[0x18][0xab]NP[0xc3][0xdf]a[0x16][0xe3]NTEU[0x1e]R[0x11]l[0x17]v[0xc9]"[0xae][0xc9]*[0x1a][0x11][0x15][0xb5][0x11][0x13][0xc7][0x9b][0xd6]%[0x8c][0xd5]Y[0x17]%[0xec][0xef]J[0xf8][0xa8][0x11];[0x7]|[0x5][0xdd][0xbb][0xc2]=[0xaa][[0xc7][0x1b][0xa1]7[0xa0][0xdd][0xbd][0xf6][0xe1][0xd1]J[0xcd][0x9][0x18][0x93]Sf[0x15][0xb0]T[0x6][0xe6][0x9d][0x9d][0x94][0x89]]?[0xa9]m[0x19]:[0x3]g[0xa4]3A/[0xc6][0xed][0xf1]|8[0xd1][0x9]y[0x8d][0xc]G*[0xe6] lVs[0x10]B/[0x3]l[0xb6]n[0x8e]C[0x3][0x7][0x87][0xcd]1[0xa9][0x90][0xdb][0x81]ym[0xb6]5t[0x86][0x8e]k[0xaf][0xa0]R[0xef]M[0xbf][0xf3][0xcc][0xbb][0xd6][0xfd][0xd1][0xdf]oX[0x92][0x17]D[0xf3]9'[0xc2]^[0x5][0xc9][0x82][0xe6][0xbf][0xdd]0"[0xd4][0xbb]]{[0xfe][0xb1][0xd7]]GW[0x1d],s[0x9d]q'[0x99]o`@[0xe3]J[0xed]e[0xaa][0x8] [0xd3][0x9c][0xe9][0xdb][0xbb][0xdc][0xdf]g[0x4][0xab][0xaa]`*0[0xaf]v[0x88]l6)=r<[0xaf][0xde][0x91]Yy[0x1d][0xf8][0xd9]$[0xd2]o%[0xa0][0x98]Z[0x1f][0xe6][0xe7][0xb3][0xab][0xb9][0x93][0xc7]F[0xee][0xf9][0xdb][0xab][0xf9]l[0xf6]v[0xfe][0xee][0xfc][0xdd][0xff]^[0xc0]pF[0xc6]Y9_k,[0x6][0xfb]M,R[0xc4]X[0xf0]RGd[0xe7][0xc4][0xb6]<n[0xb4][0xc3]D[0xcd][0xa4]r[0x1e][0xdd]2[0xc5][0x83][0xe6][0xbf][0xbd][0xa3][0x11]p[0x19][0x92]U+[0xc7][0xaa][0x13]23[0xda][0xf]Y[0xc3][0xaa]N[0xc5][0x83][0xf1][0x16][0xf]&[0xed][0xc3]8:[0x99][0xdf][0x1d]#4M[0x97]2[0x1c][0xaf][0x83][0x9c][0x1a][0x99][0x9c]2[0xe0][0xa1]#[0xf2][0x5]d[0xb3]kCv([0xf6][0x8c]!{d[0xb3]k+v]C[0x1f]4[0x96]D**>[0xe5][0x99][0xb3]"[0xd1]-[0x80][0xcd][0xd1]4H[0x83][[0xd0]<[0xb0][0xb7][0xf][0xec]U|;[0xdd]r`o[0xb2]=[0xf][0xa0][0xa1]wp[0x2][0x19][0xef]s[0x9a]'[0xeb][0xa6][0xf1][0x88][0xa9][0x9b][0xe][0x12]d[0xbc]_[0xb2]O$[0xc8]c[0xc6][0xdb]qX[0xc6][0x86][0x82][0x92]8[0xb6]" [0xb8][0xb8][0xa0] [0xbd][0x14]<[0x17]pu[0x85][0xb9][0xa1][0xb5][0xcc][0xb6][0x90]EqZ[0x8f]jN[0xc9][0xb3][0xd8]| [0xad][0x1a]"[0xd3]<[0xfe][0x83][0x14][0x9c][0x17]/[0x1]Hc[0x80][0xe7][0xba]g[0xf6][0x12][0x94][0xb5][0x12][0xd4][0x16][0xf4]c[0x5][0x6]c[0xc3]*[0xdb]pp{IXf[0xeb][0x3][0xbd][0xd0][0x83]";"
-[DEBUG] 2024-11-24 15:37:47.482 [] wire -  << "[0xa7]R[0x92][0x84][0xe2][0x89]M?E[0xd4][0x8c][0xa5]l*[0x4][0x17][0xdb][0x8f][0xda]7[0xa2][0xb1][0xc1][0x12][0xe3][0x98]J*t[0x9d]F[0xa9]>[0x15]`[0x9b]k[0x92][0xb1][0xd8][0xc2][0x98][0xb3][0x3]M[0x6]?[0xb7][0x1d][0x14]^.[0xad][0xdd][0x94][0xc5][0xf5][0xec]P7[0xd8][0xd6]\f|[0x14][0x8e][0x8e][0xa1][0xb4]f[0xae]1[0x8f][0xe][0x98][0x9b][0xe7][0xd6]][0x3][0xdc][0xc6][0xed]$[0xfb]w[0xa8]t[\n]"
-[DEBUG] 2024-11-24 15:37:47.482 [] wire -  << "[0x87][0xd5][0x9c][0x1d]=[0xb][0xd5][0xdf][0x89][0xf6][0xc9][0xce][0x1b]G[0xb5][0xef][0xb1][0xf7][0xae]u?[0xd1]/%[0xf2][0xc9][0x4][\r][0xb6][0xb][0xfb]1[0x97][0x1f]n[0x99][0x9c]^t[0x80]@[0x93]}[0x4][0xfa]w[0xb2]e[0x86]>[0x86]l[\r][0xda]w[0xe9][0x89][0xa9][0xf8][0xc3][0xc6]x,[0x13][0x1f][0x9c][0xb0][0x88]h[0xe8]lWNx[0xe6] w[0xfc]4[0xd9]uN[0xec][0x9f]4hIr'[0xa5][0xa4]>`[0x7][0xf]+[0xfb][0x8e][0x86][0xdb][0xa3][0xd4][0x8][0x13]1s[0x94][0x1a]9~[0x7]A[0xd9]o[0xcf][0xf9]F~[0xcc][0x2][0xf3][\n]"
-[DEBUG] 2024-11-24 15:37:47.482 [] wire -  << "[0xee]X[0x14][0x18]x[0x0]\W[0xb5]n[0xec][0xbd][0xae][0xc6]3G[0xf3][0xf0][0xd6][0xa7][0x9c][0xe9]~B<[0xd3][0x83][0xb7][0xb9][0x88]iB[0x7][0xaa]M[0xf0]5[\r][0xd7][0xb3][0x1d]=[0x2]-[0xd1][0xe2]B[0x96]1[0xb5][0xb1][0xee]p[0x9d]i[0xe9]^gZ[0xa3][0x15][0x9a][0xde]h[0x81][0xa3]h._[0xf7][0xbf][0xb8][0x12][0xfa][0x8d][0xa8][\n]"
-[DEBUG] 2024-11-24 15:37:47.482 [] wire -  << "[0xc5]0[0x96][0xed][0xa0][0x1f][0x8e]M [0xce][0xd1]w~[0xa6][0x2][\n]"
-[DEBUG] 2024-11-24 15:37:47.482 [] wire -  << "sRD[0xd4][0xba][0x11]`IZ[0x13]&[0xbc][0x1f][0xea][0xf6]xQ[0xb1],[0xd6][0xf3][\r][0xf4][0xa3][0xb][0xaa][0xc0][0xa6][0xac]y[0x11][0x97][0x9c][0xe1][0x18]|^[0x90]l#Y=M[0xfa]i#[0x18].[0xc7][0xe4]5Zf[0xfa][0x82][0xe]=4x[0xb5]d[0x9f][0xac][0xa6]3X[0x9][0xc5]`[0xc5][0xdc][0xd9][0xb4][0xef]KS[0x83]Ao([0xcf][0xb8]f[0x17][0x10][0x19][0x91]R[0x9a]]a[0xd6][0x9d]Y3[0xba]fp[0x0][0x9e][0xbf]#y[0x18][0x13]=%3Z[0xd3][0x95][0xc][0xf5][0xe8][0x16][0xfb][0xfe][0xf2][0xb1][0xf7][0xf4][0xd4]c[0xa6][0x19]>[0x1b][0xe4][0xeb]`[0xfe]<5d[0xf3][0xf1][0x15]J[0x7][0xfe]C'[0xfb][0xab][0xc0]][0x81][0x1e][0x83]\b[0xea]%XX[0xa1]X[0xa5]V[0xb5]z[0xcd][0xf5][0x8d][0x1][0xae]![0x19][0x92][0x86][0x9][0xb8]Q[0xf][0xc9][0xcc][0xd7][0xb5][0xdb][0xbf][0xdc][0x89][0xf5][0xd9][0xf6]q [0xba][0xd6][0xa0][0xc3][0x84]}[0xbc][0xfa][0x1][0x97][0x15][0xcd]-[0x8]B[0xfe][0xea]Up[0xf2]5[0x87][0xa9]hAq[0xc5][0x82][0x99][0x13][0xae][0x93][0xdc][0xe9][0xe0][0xcc]q[0x9c][0x83]k,=;2W[0x9b][0x11]G%[0xf7][0x82][0xf1][0xe7][0xff][0x3] [0xcb]][0x1b][0xdf] [0x0][0x0]"
-[DEBUG] 2024-11-24 15:37:47.482 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-[DEBUG] 2024-11-24 15:37:47.597 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@43159075
-[DEBUG] 2024-11-24 15:37:47.597 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
-[WARN ] 2024-11-24 15:37:48.858 [main] ReportManager - Nov 24, 2024 3:37:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-[WARN ] 2024-11-24 15:37:48.858 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-[INFO ] 2024-11-24 15:37:48.869 [main] ReportManager - Successfully Opened: "Windows | Chrome".
-[INFO ] 2024-11-24 15:37:48.921 [main] ReportManager - Target URL: "https://siteassured.cvbtt.com/"
-[INFO ] 2024-11-24 15:37:48.963 [main] ReportManager - Initial URL: "about:blank"
-[INFO ] 2024-11-24 15:37:49.146 [] ReportManager - You're using the latest engine version "8.4.20241024". 👍
-[INFO ] 2024-11-24 15:37:51.881 [main] ReportManager - Navigate to url "https://siteassured.cvbtt.com/".
-[INFO ] 2024-11-24 15:37:52.141 [main] ReportManager - Type "Enter here"
-[INFO ] 2024-11-24 15:37:52.402 [main] ReportManager - Type "Enter here"
-[INFO ] 2024-11-24 15:37:52.573 [main] ReportManager - Click "LOGIN Ã¢Â€ Â€™"
-[INFO ] 2024-11-24 15:37:52.626 [main] ReportManager - Assert that the element located by "By.xpath: //*[@id="collapsibleNavbar"]/ul/li[1]/a" is visible; hidden attribute is equal to "null".
-[INFO ] 2024-11-24 15:38:52.771 [main] ReportManager - Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda/0x00000241dd6d62c8@38624a3a (tried for 60 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="collapsibleNavbar"]/ul/li[1]/a"}
-[DEBUG] 2024-11-24 15:38:54.255 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:61450<->20.233.83.146:443 closed
-[INFO ] 2024-11-24 15:38:55.457 [main] ReportManager - Failed to Identify unique element.
-[INFO ] 2024-11-24 15:38:55.463 [main] ReportManager - Successfully created attachment 'Screenshot - Identify unique element_15-38-55-246_24112024'
-[INFO ] 2024-11-24 15:38:55.470 [main] ReportManager - Successfully created attachment 'Identify unique element - page snapshot'
-[INFO ] 2024-11-24 15:38:55.494 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
-[INFO ] 2024-11-24 15:38:55.787 [main] ReportManager - 
+[INFO ] 2025-06-20 21:02:11.652 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-06-20 21:02:12.165 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2025-06-20 21:02:12.372 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.5".
+[INFO ] 2025-06-20 21:02:12.988 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {log: {level: warn}, prefs: {remote.active-protocols: 3}, profile: UEsDBBQACAgIAEao1FoAAAAAAAA...}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2025-06-20 21:02:12.989 [main] ReportManager - Attempting to run locally on: "Windows | Firefox".
+[INFO ] 2025-06-20 21:02:12.989 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2025-06-20 21:02:14.519 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2025-06-20 21:02:14.671 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2025-06-20 21:02:15.376 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-06-20 21:02:15.380 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-06-20 21:02:15.380 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-06-20 21:02:15.381 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-06-20 21:02:15.381 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-06-20 21:02:15.381 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.384 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.384 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.384 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.384 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.385 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.385 [] wire -  >> "[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.385 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-06-20 21:02:15.385 [] headers - >> Accept: */*
+[DEBUG] 2025-06-20 21:02:15.385 [] headers - >> Host: api.github.com
+[DEBUG] 2025-06-20 21:02:15.385 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-06-20 21:02:15.385 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)
+[DEBUG] 2025-06-20 21:02:15.385 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-06-20 21:02:15.804 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.805 [] wire -  << "Date: Fri, 20 Jun 2025 18:02:15 GMT[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.805 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.805 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.805 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.805 [] wire -  << "ETag: W/"70d8b5963cee14eed049415a97de9ea2e88c3559c864fd184b769c9edc89ea50"[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.805 [] wire -  << "Last-Modified: Fri, 30 May 2025 22:04:04 GMT[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.805 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.805 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.805 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.805 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.805 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.805 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.806 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.806 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.806 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.806 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.806 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.806 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.806 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.806 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.806 [] wire -  << "X-RateLimit-Remaining: 59[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.807 [] wire -  << "X-RateLimit-Reset: 1750446135[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.807 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.807 [] wire -  << "X-RateLimit-Used: 1[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.807 [] wire -  << "Content-Length: 1438[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.807 [] wire -  << "X-GitHub-Request-Id: 15E9:34150:50235:BD6D7:6855A227[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.807 [] wire -  << "[\r][\n]"
+[DEBUG] 2025-06-20 21:02:15.808 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << Date: Fri, 20 Jun 2025 18:02:15 GMT
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << ETag: W/"70d8b5963cee14eed049415a97de9ea2e88c3559c864fd184b769c9edc89ea50"
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << Last-Modified: Fri, 30 May 2025 22:04:04 GMT
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << X-Frame-Options: deny
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << Content-Encoding: gzip
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << Server: github.com
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << X-RateLimit-Remaining: 59
+[DEBUG] 2025-06-20 21:02:15.808 [] headers - << X-RateLimit-Reset: 1750446135
+[DEBUG] 2025-06-20 21:02:15.809 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2025-06-20 21:02:15.809 [] headers - << X-RateLimit-Used: 1
+[DEBUG] 2025-06-20 21:02:15.809 [] headers - << Content-Length: 1438
+[DEBUG] 2025-06-20 21:02:15.809 [] headers - << X-GitHub-Request-Id: 15E9:34150:50235:BD6D7:6855A227
+[DEBUG] 2025-06-20 21:02:15.820 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2025-06-20 21:02:15.820 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Xo[0x9b]:[0x14][0xfd]*([0xd3][0xf4][0xa4][0xaa]8[0x84][0x90][0x86] M{[0xdb][0xda][0xfd][0xf8][0xa3][0xdd][0xdb][0xd6][0xa7]'[0xbd][0xbd])r[0xc0][0x5][0xa7]`Sl[0x92]u[0xd5][0xbe][0xfb];6[0x90]4[0xd1][0xd6]"
+[DEBUG] 2025-06-20 21:02:15.821 [] wire -  << "M#S%rq[0xe1]\[0xfb][0xde]s[0xcf][0xb5][0xb9][0x1b][0xd4]U>[0x88][0x6][0x99][0xd6][0xa5][0x8a][0x86]CZr[0x92]r[0x9d][0xd5][0xb][0x12][0xcb]bX[0xb1]R[0xaa][0xe1][0x87][0x8c]^[0xe9][0xd7][0xef][0x86][0x1f]^?{y9?[0xbb]x[0xf5][0xe6][0xe2][0xc][0xff][0xca][0x19]UL[\r]}[0xdf][0x1f]M[0xc7][0xa3]Q88[0x1e]P[0xa5][0x98]V[0xf3][0xc3]a[0xe][0x1b]D@[0xd7]e.i[0xb2][0x7][0xdd][0xc][0xaa]_[0x9e]r[0xb][0xf7]T[0xd0][0x82][0x1d][0xe7]t[0xc1][0xf2][0xaf][0xf0][0x95][0xe9]"[0xdf][0xf3]t/([0xf][0x87]C[0xd3]t8#>[0xf1]=[0xe2]M[0xc6][0x1e][0xe0]x2[0x88]6QB[0x90]j[0x9d][0xc9]j[0x10][0xdd][\r]r[0x99]r[0x81][0xe8]7[0xe0].[0x8d]5[0x97]B}\H[0xfd][0xa9]}-[0x18][0x85][0xb3][0xd0][0xf][0xfd][0xe3][0x81][0x90][0x9][0x9b][0x1b][0xa4][0xc1][0xf9][0xe9][0xf9][0xc9][0xbb]b[0xe6]][0x9c][0x9e][0x5]o/[0xd3][0xdb][0xb7][0xa7]o[0x9e][0x98][0xd8][0xaf][0xa8][0xa6][0xd5]~[0xec][0xed]`[0x17][0xa0]Z[0xb1]*[0x96]B3[0xa1]mz[0xb9][0x18][0x8e]&[0xe3][0x93][0xf0][0xe9][0xea]I[0x0][0x84][0xb4]j1[0xac][0x1b][0x13][0xf3][0x87][0xb8]a[0xc0][0xd4]pw[0xea][0x8f]'[0xcf]1[0xf9][0xc7][0x93][0xd3][0x1f][0x6][0x91][0x96][0xe5][0xfe][0xcb]x[0xe7]J[0xe6][0xb9]\[0x3]w[0x19][0xbb][0xb4]|[0xd0][0xf5]p[0x3][0xb2][0x1][0xe4]"[0xed][0xf][0x8][0x90][0xbb][0xa1][0xd4][0x19]C[0x8c][0xb1]t[0xc3][0x93][0x94][0xab][0x1f][0xb1][0xfd][0xe1][0xa9]Z[0x80];[0x4]Qi[0xe4][0xd6]@*[0xa4][0xab]b[0xfb]<[0xdf]+[0xcb][0x87]A[[0x8]Lv-0[0xcf];[[0xc5][0x16][0xbb]^[0xa8][0xb8][0xe2][0xa5]eY[0x9f][0x80][0xec][0x0][0x1]XV)[0x15][0xfc][0xb][0xed][\r][0xc] [0x5]<+;}&h[0x1][0x0][0xc4]V[0xa0]z/[0xa4][0x6][0xe1]nXV|E[0xe3][[0x13][0xc6][0x8a][0xc5][0x8c][0xaf][0x90][0xa3][0xfe][0xe8]{P[0x0][0xd7][0xb7]%C[0xf1]=[0x97][0x1a]7&[0xcf][0xf3][0x15]g[0xeb]y;\[0xd6][0x8b][0x9c][0xc7]&[0x95]\[0xb3]9M[\n]"
+[DEBUG] 2025-06-20 21:02:15.821 [] wire -  << "#[0x1f]W4W[0xec][0xeb]}[0x85]x6[0xbf]^[0x9f][0xbe]}[0xf1][0x8a]][0x9e][0xa8][0xe0][0xe2][0xaf][0x8c][0xb9][0x6][0x9a][0xa6]s[0xa3]s[0x80][0xdf][0x13](p.ez[0xe]I([0xb8][0xe6]*[0xc3][0x13][0x5][0x5]40[0xbf][0xf9]|R[0xa1]![0xb4][0x8e][0x8f][0x7]e[0xc5][0xda]f[0xb0][0x19][0x8a]+F5"D[0xf1][0xd4][0xc0]([0xa1][0xeb]M[0xdc][0xb1]w[0xe9][0xfb][0x91]7[0x8e][0x2][0xef]_@[0xdb][0xb5][0xa8][0xec];O[0x5][0x91][0x17][0x98][0xa7]Z[0xfd][0x8f]>~2[0xb][0xa8][0x16]4[0xdf]W[0xe6][0x9f]oY[0xed][0xfb][0xfb][0xf2][0xfc][0x85][0x97][0xbd]`[0xdb][0xf7][0xf7]a[0x17]2[0xb9][0xc5][0xea][0x1f]=r[0xfe][0xc9][0xa8][0xfe]C9/2*R[0x96][0xfc]'[0x8e][0x9c][0xbf][0xcb][0x4][0xc5]"R[0x7]qJ[\n]"
+[DEBUG] 2025-06-20 21:02:15.821 [] wire -  << "[0xe6],n[0x9d]?[0xcf]eF[0x17][0xb8]p[0xe6]p[0xe1]t[\r][0xf9]G}[0xa7][0xac][0xf3]|8[0x9a]M[0x3][0x3][w[0xb0][0x88][0x92][0x83][0xe6]"[0x95][0xa3][0xa5][0xf3][0x8a][0x9][0xdf][0xde][0x1d][0xc0][0xcd][0xc4][0xb8]y^[0x17][0xa5][0x83]R%T[0x95],[0xd6][0xcb][0xa8][0xfd]]3[0xba]b[0x95]sU[0xc9][0xc2][0x19][0x11]pll[0xdc][+[0xb0][0xbe][0x13]V2[0x91]P[0xb4][0x88]_Y[0xe2]t[0xc7][0xf7][0xb2][0x16]\G[0xf6][0xea].[0xe0][0xd0]z[0x9d][0x90][0x91]OF[0xc6][0xab][0xb5][0xfc][0x3]x=[0xd9]xEy[0x90]T[0xca]4g$[0xad][0xd1])#{m[0x1c][0x8f][0xc7]$ SwY1[0xe3][0xdc][0xde][0x85][0xf6][0xae][0xff][0xb2][0xc3][0xcd][0x4][0xb8][0xec]6:[0xb])xJ[0xab][0x98][0xd3]h[0xcd][0x16][0x9][0xb4][0x89]U[0x5][0x15]4[0xed][0xc2]B[0xbc]&[0xe]'dD[0xbc][0x3][0xcc]b[0xb6][0xa1]-sJ[0x4][0xe2]s[0x91][0xf7][0xa7]S[0xe8][0xed][0x4][0xf7][0x8a]*[0xcd]* [0x93]%[0x8d][0xaf][0x95][0x14][0x4]UB[0x8d][0xf4]E[0xed][0x80][0xdb][\r][0xb8][0xcb][0xe4]:lB[0x8f][0x84][0x87][0xc4]2[\r][0xd6][0xec][0x10][0x8b][\r][0xfd]][0xa6])Y[0x97][0xd1][0xd2]\;n[0xc3][0x8f]e[0xd9][0x8][0xdb]<X[0xbd][0x93][0x1c]n[0xeb][\n]"
+[DEBUG] 2025-06-20 21:02:15.821 [] wire -  << "I[0x8e][0xeb][0xb8].[0x16][0xac][0x8a]:[0xc3][0xd5]Li[0xa8][0x85][0xe5][0xf8][0x94][0xf8]>V[0x9][0xef][0xd6]:[0x0][0xc7]C[0x9b]\[[0xd5][0xdf][0xf4][0xbe][0xdc][0xd0][0xfc][0xf0][0xbe]g[[\n]"
+[DEBUG] 2025-06-20 21:02:15.821 [] wire -  << "|[0xd3]w[0xc9]ci[0xb6][0xac]hG[0x1d][0xb7][0xc3]$F[0xf7][0xd8][0xfd][0xfe][0xec][0xd9][0xe9][0xf9][0x19])[0x92][0xfe][0xfc][0x9e]m[0x89]d[0xc4][0x83][0xea][0x1c][0xed][0x8c]SA$[0xe5][0x91]Z[0xd3][0x14][0xf5][0xea]V[0xec][0xa6]Fz[0xdd][0x15][0xcd]9[0xe8]-[0xcd][0x8][0xb6]pJ[0xd5][0xd8][0x7]v[0x14][0xf][0x82][0x86]p>[0x81][0x15][0xf6]'[0xdc][0xcc][0xf6][0x8b][0x8d][0x90]+[0x1c][0xe6][0x4][0xaf][0x8b][0xec][0x86]tf[0xd4][0x19][0xee]6[0xfd][0x1][0x19][0x1b]5[0x1][0xf5]`[0x8d][0xf]Qj[0xb3]-[0xf1]M[0x84]XI[0xb][0x92]1[0xda][0xcc]&[0xda]X.T[0xae][0x15]Z2![0x13][0xab][0xb1]0N[0xe][0x10][0x88][0xad][0xbc][0x9a][0x8e]V[0xc8][0xf8][0x9a]k[0x19][0xb5][0xbf]n,[0xa1][0xe1]]k[0x99]6kGk[0x9][0xf][0xb2][0xf6]mC3k/n[0xd5]M[0x1e][0xd9]+[0xdc][\n]"
+[DEBUG] 2025-06-20 21:02:15.822 [] wire -  << "[0x81][0xce][\n]"
+[DEBUG] 2025-06-20 21:02:15.822 [] wire -  << ".,[0x1b][0xef]f[0xc3]f[0x3]?#[0x87][0x89][0xbb]mk[0xa3]Y[0x88][0x10][0xd6][0xa9][0xb3][0xe2][0x9][0x93][0xd8][0x8c]`[0xb9][0x89][0xd9][0x96][0x8]t[0xe8][0xb5][0xac][0xae][0x8d]M[0x95][0xc3]>[0x9b]>[0xf]6bcb;[0xee][0x1]Jc[0xab]9v'Q[0xd2]8c[0xa4]L[0xae][0x16][0xf2]s[0xd4][0xfc]t[0x9][0xf7]H[0xd0]$[0xdc]C[0xe6]{J[0xad][0xef]y;[0x82]cJ[0xcd]mk-[0xba][0xd3]%[0x1d][0xc9]6[0xce]A[0xba][0x83]8[0xb7]B[0xd3])[0xed][0x8e]s[0xf4][0x17][0xe1]*[0x4][0xa1][0xa0][)[0xf8]M[0xb3][0xd8][0xed]o8*[0xe9][0x14]s[0x1][0xfb][0xb6]f[0xe3]9[0xf0][0xc9][0xb4])7k[0xf5][0xae]7[0x84][0xfc]p[0xaf][0xf9][0x9e][0xde][0xfb]m[0xc3];[0x0][0xfb]1[0x9][0xab]~`[0xff][0xd4][0xb0][0x9f][0xb]+[0xbd][0xe]>f)[0x9c][0x8c][0x1d][0x98][0xb8][0xc6][0x19][0x9a]-s[0xd6][0x19][0x13]NU[0xb]aJ[0xc1][0xb4]ae[0x8a][0xa0][0xa4][0x15][0xb6][0xd8],wje[0xc6][0xf]R[0x13][0x98][0x96][0x15][0xc3][0xf7][0xcd][0x87]5[0x7][0xc7][0xaa][0xb2]o[0x9d][0x1][0x13][0x85]n[0xfe][0x8e][0x8e]^[0xe2][0xa4][0xd0][0x9e]Ap[0x18]8:[0x8a]~[0xfa][0x8c][0x1]u[0xc2][0x82][0xd9][0xf6][0x80][0x13]x3B[0xcc][0xb6][0xfe][0xfe]W[0xae][0x2]Gm[0xfb]a![0x96][0xb5][0xc0][0xb9][0xcf][0xff][0xfa]?4#"
+[DEBUG] 2025-06-20 21:02:15.822 [] wire -  << "[0xb]0][0x14][0x0][0x0]"
+[DEBUG] 2025-06-20 21:02:15.822 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-06-20 21:02:15.920 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4d7d517e
+[DEBUG] 2025-06-20 21:02:15.920 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[WARN ] 2025-06-20 21:02:17.162 [] ReportManager - 
+[1;33m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          ⚠️ You're using an outdated engine version "8.4.20241024" ⚠️                                          
+                                 Kindly upgrade to the latest one "9.2.20250530" to ensure the best experience.                                 
+                           For more information click here: https://github.com/ShaftHQ/SHAFT_ENGINE/releases/latest .                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:03:39.073 [main] ReportManager - Successfully Opened: "Windows | Firefox".
+[INFO ] 2025-06-20 21:03:39.164 [main] ReportManager - Target URL: "https://demo.siteassured.cvbtt.com/"
+[INFO ] 2025-06-20 21:03:39.243 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2025-06-20 21:03:44.230 [main] ReportManager - Navigate to url "https://demo.siteassured.cvbtt.com/".
+[INFO ] 2025-06-20 21:03:44.414 [main] ReportManager - Type "Enter here"
+[INFO ] 2025-06-20 21:03:44.492 [main] ReportManager - Type "Enter here"
+[INFO ] 2025-06-20 21:03:49.155 [main] ReportManager - Click "LOGINÃ¢Â€ Â€™"
+[INFO ] 2025-06-20 21:03:49.170 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2025-06-20 21:03:49.242 [main] ReportManager - 
 [0;7m------------------------------------------------------------------------------------------------------------------------------------------------
-                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
-                                                Test Method: 'Tests.sign_upTest.admin_loginTest'                                                
+                                        Starting Execution: '1 out of 13' test cases in the current suite                                        
+                                    Test Method: 'Tests.homepage_test.verify_navigation_to_CVB_Manager_List'                                    
 ------------------------------------------------------------------------------------------------------------------------------------------------
 [0m
-[INFO ] 2024-11-24 15:38:55.819 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: admin_loginTest'
-[INFO ] 2024-11-24 15:38:55.820 [main] ReportManager - 
+[INFO ] 2025-06-20 21:03:49.249 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"...
+[INFO ] 2025-06-20 21:03:49.337 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles".
+[INFO ] 2025-06-20 21:03:50.583 [main] ReportManager - Click " icon User Roles"
+[INFO ] 2025-06-20 21:03:52.073 [main] ReportManager - Click "By.xpath: //span[contains(text(),'CVB Manager')]"
+[INFO ] 2025-06-20 21:03:52.109 [main] ReportManager - Assert that the element located by "By.xpath: //h3[contains (text(),'CVB Manager') ]" is visible; hidden attribute is equal to "null".
+[DEBUG] 2025-06-20 21:03:52.224 [main] ReportManager - Expected "null", and actual "null"
+[DEBUG] 2025-06-20 21:03:52.555 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:64149<->20.233.83.146:443 closed
+[INFO ] 2025-06-20 21:03:54.518 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_21-03-54-515_20062025'
+[INFO ] 2025-06-20 21:03:54.519 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:03:54.521 [main] ReportManager - Assertion passed
+[INFO ] 2025-06-20 21:03:54.534 [main] ReportManager - Total Passed: 1
+[INFO ] 2025-06-20 21:03:54.535 [main] ReportManager - Total Failed: 0
+[INFO ] 2025-06-20 21:03:54.545 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verify_navigation_to_CVB_Manager_List'
+[INFO ] 2025-06-20 21:03:54.546 [main] ReportManager - 
 [0;7m------------------------------------------------------------------------------------------------------------------------------------------------
-                                     Finished Execution of Test Method: 'Tests.sign_upTest.admin_loginTest'                                     
-                                                             Test Status: 'Skipped'                                                             
+                         Finished Execution of Test Method: 'Tests.homepage_test.verify_navigation_to_CVB_Manager_List'                         
+                                                              Test Status: 'Passed'                                                              
 ------------------------------------------------------------------------------------------------------------------------------------------------
 [0m
-[INFO ] 2024-11-24 15:38:55.840 [main] ReportManager - 
+[INFO ] 2025-06-20 21:03:55.093 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 13' test cases in the current suite                                        
+                                      Test Method: 'Tests.homepage_test.verify_navigation_to_CVB_User_list'                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:03:55.096 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"...
+[INFO ] 2025-06-20 21:03:55.172 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles".
+[INFO ] 2025-06-20 21:03:55.442 [main] ReportManager - Click " icon User Roles"
+[INFO ] 2025-06-20 21:03:56.902 [main] ReportManager - Click "By.xpath: //span[contains(text(),'CVB User')]"
+[INFO ] 2025-06-20 21:03:56.905 [main] ReportManager - Assert that the element located by "By.xpath: //h3[contains(text(), 'CVB User')]" is visible; hidden attribute is equal to "null".
+[DEBUG] 2025-06-20 21:03:57.071 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:03:57.612 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_21-03-57-600_20062025'
+[INFO ] 2025-06-20 21:03:57.612 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:03:57.613 [main] ReportManager - Assertion passed
+[INFO ] 2025-06-20 21:03:57.613 [main] ReportManager - Total Passed: 2
+[INFO ] 2025-06-20 21:03:57.614 [main] ReportManager - Total Failed: 0
+[INFO ] 2025-06-20 21:03:57.617 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verify_navigation_to_CVB_User_list'
+[INFO ] 2025-06-20 21:03:57.617 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                           Finished Execution of Test Method: 'Tests.homepage_test.verify_navigation_to_CVB_User_list'                           
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:03:57.628 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 13' test cases in the current suite                                        
+                                     Test Method: 'Tests.homepage_test.verify_navigation_to_CVB_admin_list'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:03:57.629 [main] ReportManager - Opening login page...
+[INFO ] 2025-06-20 21:03:57.631 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"...
+[INFO ] 2025-06-20 21:03:57.700 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles".
+[INFO ] 2025-06-20 21:03:58.270 [main] ReportManager - Click " icon User Roles"
+[INFO ] 2025-06-20 21:04:00.698 [main] ReportManager - Click "By.xpath: (//span[contains(text(),'CVB Administrator')])[2]"
+[INFO ] 2025-06-20 21:04:00.701 [main] ReportManager - Assert that the element located by "By.xpath: //h3[contains(text(), 'CVB Administrator')]" is visible; hidden attribute is equal to "null".
+[DEBUG] 2025-06-20 21:04:00.826 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:01.217 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_21-04-01-215_20062025'
+[INFO ] 2025-06-20 21:04:01.218 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:01.218 [main] ReportManager - Assertion passed
+[INFO ] 2025-06-20 21:04:01.219 [main] ReportManager - Total Passed: 3
+[INFO ] 2025-06-20 21:04:01.219 [main] ReportManager - Total Failed: 0
+[INFO ] 2025-06-20 21:04:01.223 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verify_navigation_to_CVB_admin_list'
+[INFO ] 2025-06-20 21:04:01.224 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                          Finished Execution of Test Method: 'Tests.homepage_test.verify_navigation_to_CVB_admin_list'                          
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:01.231 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 13' test cases in the current suite                                        
+                           Test Method: 'Tests.homepage_test.verify_navigation_to_Client_Company_Badge_Operator_page'                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:01.233 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"...
+[INFO ] 2025-06-20 21:04:01.286 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles".
+[INFO ] 2025-06-20 21:04:02.016 [main] ReportManager - Click " icon User Roles"
+[INFO ] 2025-06-20 21:04:05.200 [main] ReportManager - Click "By.xpath: //span[contains(text(),'Client Company Badge Operator')]"
+[INFO ] 2025-06-20 21:04:05.204 [main] ReportManager - Assert that the element located by "By.xpath: //h3[contains(text(),'Client Company Badge Operator')]" is visible; hidden attribute is equal to "null".
+[DEBUG] 2025-06-20 21:04:05.291 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:05.680 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_21-04-05-677_20062025'
+[INFO ] 2025-06-20 21:04:05.680 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:05.680 [main] ReportManager - Assertion passed
+[INFO ] 2025-06-20 21:04:05.681 [main] ReportManager - Total Passed: 4
+[INFO ] 2025-06-20 21:04:05.681 [main] ReportManager - Total Failed: 0
+[INFO ] 2025-06-20 21:04:05.684 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verify_navigation_to_Client_Company_Badge_Operator_page'
+[INFO ] 2025-06-20 21:04:05.684 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                Finished Execution of Test Method: 'Tests.homepage_test.verify_navigation_to_Client_Company_Badge_Operator_page'                
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:05.691 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 13' test cases in the current suite                                        
+                                  Test Method: 'Tests.homepage_test.verify_navigation_to_Contract_Holder_page'                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:05.695 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"...
+[INFO ] 2025-06-20 21:04:05.807 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles".
+[INFO ] 2025-06-20 21:04:06.566 [main] ReportManager - Click " icon User Roles"
+[INFO ] 2025-06-20 21:04:10.048 [main] ReportManager - Click "By.xpath: //span[contains(text(),'Contract Holder')]"
+[INFO ] 2025-06-20 21:04:10.051 [main] ReportManager - Assert that the element located by "By.xpath: //h3[contains(text(),'Contract Holder')]" is visible; hidden attribute is equal to "null".
+[DEBUG] 2025-06-20 21:04:10.254 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:10.843 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_21-04-10-841_20062025'
+[INFO ] 2025-06-20 21:04:10.844 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:10.844 [main] ReportManager - Assertion passed
+[INFO ] 2025-06-20 21:04:10.845 [main] ReportManager - Total Passed: 5
+[INFO ] 2025-06-20 21:04:10.845 [main] ReportManager - Total Failed: 0
+[INFO ] 2025-06-20 21:04:10.849 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verify_navigation_to_Contract_Holder_page'
+[INFO ] 2025-06-20 21:04:10.849 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                       Finished Execution of Test Method: 'Tests.homepage_test.verify_navigation_to_Contract_Holder_page'                       
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:10.858 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 13' test cases in the current suite                                        
+                                  Test Method: 'Tests.homepage_test.verify_navigation_to_Contract_Manager_page'                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:10.860 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"...
+[INFO ] 2025-06-20 21:04:10.913 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles".
+[INFO ] 2025-06-20 21:04:11.313 [main] ReportManager - Click " icon User Roles"
+[INFO ] 2025-06-20 21:04:12.763 [main] ReportManager - Click "By.xpath: //span[contains(text(),'Contractor Manager')]"
+[INFO ] 2025-06-20 21:04:12.766 [main] ReportManager - Assert that the element located by "By.xpath: //h3[contains(text(),'Contractor Manager')]" is visible; hidden attribute is equal to "null".
+[DEBUG] 2025-06-20 21:04:12.897 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:13.501 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_21-04-13-484_20062025'
+[INFO ] 2025-06-20 21:04:13.502 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:13.503 [main] ReportManager - Assertion passed
+[INFO ] 2025-06-20 21:04:13.504 [main] ReportManager - Total Passed: 6
+[INFO ] 2025-06-20 21:04:13.504 [main] ReportManager - Total Failed: 0
+[INFO ] 2025-06-20 21:04:13.510 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verify_navigation_to_Contract_Manager_page'
+[INFO ] 2025-06-20 21:04:13.511 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                       Finished Execution of Test Method: 'Tests.homepage_test.verify_navigation_to_Contract_Manager_page'                       
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:13.529 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 13' test cases in the current suite                                        
+                                    Test Method: 'Tests.homepage_test.verify_navigation_to_Global_User_list'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:13.537 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"...
+[INFO ] 2025-06-20 21:04:13.629 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles".
+[INFO ] 2025-06-20 21:04:14.042 [main] ReportManager - Click " icon User Roles"
+[INFO ] 2025-06-20 21:04:15.519 [main] ReportManager - Click "By.xpath: //span[contains(text(),'Global Users')]"
+[INFO ] 2025-06-20 21:04:15.523 [main] ReportManager - Assert that the element located by "By.xpath: //h3[contains(text(),'MANAGE GLOBAL ROLES')]" is visible; hidden attribute is equal to "null".
+[DEBUG] 2025-06-20 21:04:15.705 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:16.121 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_21-04-16-119_20062025'
+[INFO ] 2025-06-20 21:04:16.122 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:16.122 [main] ReportManager - Assertion passed
+[INFO ] 2025-06-20 21:04:16.123 [main] ReportManager - Total Passed: 7
+[INFO ] 2025-06-20 21:04:16.123 [main] ReportManager - Total Failed: 0
+[INFO ] 2025-06-20 21:04:16.127 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verify_navigation_to_Global_User_list'
+[INFO ] 2025-06-20 21:04:16.127 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                         Finished Execution of Test Method: 'Tests.homepage_test.verify_navigation_to_Global_User_list'                         
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:16.135 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '8 out of 13' test cases in the current suite                                        
+                               Test Method: 'Tests.homepage_test.verify_navigation_to_Hiring_Company_Manager_page'                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:16.137 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"...
+[INFO ] 2025-06-20 21:04:16.222 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles".
+[INFO ] 2025-06-20 21:04:16.784 [main] ReportManager - Click " icon User Roles"
+[INFO ] 2025-06-20 21:04:17.809 [main] ReportManager - Click "By.xpath: //span[contains(text(),'Hiring Company Manager')]"
+[INFO ] 2025-06-20 21:04:17.811 [main] ReportManager - Assert that the element located by "By.xpath: //h3[contains(text(),'Hiring Company Manager')]" is visible; hidden attribute is equal to "null".
+[DEBUG] 2025-06-20 21:04:17.898 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:18.232 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_21-04-18-230_20062025'
+[INFO ] 2025-06-20 21:04:18.232 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:18.233 [main] ReportManager - Assertion passed
+[INFO ] 2025-06-20 21:04:18.234 [main] ReportManager - Total Passed: 8
+[INFO ] 2025-06-20 21:04:18.234 [main] ReportManager - Total Failed: 0
+[INFO ] 2025-06-20 21:04:18.237 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verify_navigation_to_Hiring_Company_Manager_page'
+[INFO ] 2025-06-20 21:04:18.237 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                    Finished Execution of Test Method: 'Tests.homepage_test.verify_navigation_to_Hiring_Company_Manager_page'                    
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:18.243 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '9 out of 13' test cases in the current suite                                        
+                               Test Method: 'Tests.homepage_test.verify_navigation_to_Recruiter_Company_User_page'                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:18.244 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"...
+[INFO ] 2025-06-20 21:04:18.297 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles".
+[INFO ] 2025-06-20 21:04:19.188 [main] ReportManager - Click " icon User Roles"
+[INFO ] 2025-06-20 21:04:20.485 [main] ReportManager - Click "By.xpath: //span[contains(text(),'Recruiter Company User')]"
+[INFO ] 2025-06-20 21:04:20.487 [main] ReportManager - Assert that the element located by "By.xpath: //h3[contains(text(),'Recruiter Company User')]" is visible; hidden attribute is equal to "null".
+[DEBUG] 2025-06-20 21:04:20.578 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:20.984 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_21-04-20-982_20062025'
+[INFO ] 2025-06-20 21:04:20.984 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:20.985 [main] ReportManager - Assertion passed
+[INFO ] 2025-06-20 21:04:20.985 [main] ReportManager - Total Passed: 9
+[INFO ] 2025-06-20 21:04:20.986 [main] ReportManager - Total Failed: 0
+[INFO ] 2025-06-20 21:04:20.989 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verify_navigation_to_Recruiter_Company_User_page'
+[INFO ] 2025-06-20 21:04:20.989 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                    Finished Execution of Test Method: 'Tests.homepage_test.verify_navigation_to_Recruiter_Company_User_page'                    
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:20.996 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '10 out of 13' test cases in the current suite                                       
+                                Test Method: 'Tests.homepage_test.verify_navigation_to_Site_Access_Approval_page'                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:20.999 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"...
+[INFO ] 2025-06-20 21:04:21.046 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles".
+[INFO ] 2025-06-20 21:04:21.746 [main] ReportManager - Click " icon User Roles"
+[INFO ] 2025-06-20 21:04:23.011 [main] ReportManager - Click "By.xpath: //span[contains(text(),'Site Access Approver')]"
+[INFO ] 2025-06-20 21:04:23.015 [main] ReportManager - Assert that the element located by "By.xpath: //h3[contains(text(),'Location Approver/Site Approver')]" is visible; hidden attribute is equal to "null".
+[DEBUG] 2025-06-20 21:04:23.102 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:23.483 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_21-04-23-479_20062025'
+[INFO ] 2025-06-20 21:04:23.483 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:23.484 [main] ReportManager - Assertion passed
+[INFO ] 2025-06-20 21:04:23.485 [main] ReportManager - Total Passed: 10
+[INFO ] 2025-06-20 21:04:23.485 [main] ReportManager - Total Failed: 0
+[INFO ] 2025-06-20 21:04:23.489 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verify_navigation_to_Site_Access_Approval_page'
+[INFO ] 2025-06-20 21:04:23.489 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                     Finished Execution of Test Method: 'Tests.homepage_test.verify_navigation_to_Site_Access_Approval_page'                     
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:23.496 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '11 out of 13' test cases in the current suite                                       
+                                 Test Method: 'Tests.homepage_test.verify_navigation_to_Third_Party_Agent_page'                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:23.499 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"...
+[INFO ] 2025-06-20 21:04:23.597 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles".
+[INFO ] 2025-06-20 21:04:24.343 [main] ReportManager - Click " icon User Roles"
+[INFO ] 2025-06-20 21:04:26.359 [main] ReportManager - Click "By.xpath: //span[contains(text(),'Third Party Agent')]"
+[INFO ] 2025-06-20 21:04:26.365 [main] ReportManager - Assert that the element located by "By.xpath: //h3[contains(text(),'Third Party Agent')]" is visible; hidden attribute is equal to "null".
+[DEBUG] 2025-06-20 21:04:26.522 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:27.010 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_21-04-27-008_20062025'
+[INFO ] 2025-06-20 21:04:27.010 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:27.011 [main] ReportManager - Assertion passed
+[INFO ] 2025-06-20 21:04:27.011 [main] ReportManager - Total Passed: 11
+[INFO ] 2025-06-20 21:04:27.011 [main] ReportManager - Total Failed: 0
+[INFO ] 2025-06-20 21:04:27.015 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verify_navigation_to_Third_Party_Agent_page'
+[INFO ] 2025-06-20 21:04:27.015 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                      Finished Execution of Test Method: 'Tests.homepage_test.verify_navigation_to_Third_Party_Agent_page'                      
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:27.020 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '12 out of 13' test cases in the current suite                                       
+                                     Test Method: 'Tests.homepage_test.verify_navigation_to_Verifiers_page'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:27.022 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"...
+[INFO ] 2025-06-20 21:04:27.124 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles".
+[INFO ] 2025-06-20 21:04:27.679 [main] ReportManager - Click " icon User Roles"
+[INFO ] 2025-06-20 21:04:29.718 [main] ReportManager - Click "By.xpath: //span[contains(text(),'Verifiers')]"
+[INFO ] 2025-06-20 21:04:29.720 [main] ReportManager - Assert that the element located by "By.xpath: //h3[contains(text(),'Verifiers')]" is visible; hidden attribute is equal to "null".
+[DEBUG] 2025-06-20 21:04:29.823 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:30.247 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_21-04-30-245_20062025'
+[INFO ] 2025-06-20 21:04:30.248 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:30.248 [main] ReportManager - Assertion passed
+[INFO ] 2025-06-20 21:04:30.249 [main] ReportManager - Total Passed: 12
+[INFO ] 2025-06-20 21:04:30.249 [main] ReportManager - Total Failed: 0
+[INFO ] 2025-06-20 21:04:30.252 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verify_navigation_to_Verifiers_page'
+[INFO ] 2025-06-20 21:04:30.253 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                          Finished Execution of Test Method: 'Tests.homepage_test.verify_navigation_to_Verifiers_page'                          
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:30.261 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '13 out of 13' test cases in the current suite                                       
+                                      Test Method: 'Tests.homepage_test.verify_navigation_to_employee_list'                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:30.262 [main] ReportManager - Entering try block
+[INFO ] 2025-06-20 21:04:30.263 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a", isExpectedToBeVisible"true"...
+[INFO ] 2025-06-20 21:04:30.321 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: /html/body/main/div/div/div[1]/nav/div/ul/li[1]/a)" against " icon User Roles".
+[INFO ] 2025-06-20 21:04:31.074 [main] ReportManager - Click " icon User Roles"
+[INFO ] 2025-06-20 21:04:34.004 [main] ReportManager - Click "By.xpath: //span[text()='Employee']"
+[INFO ] 2025-06-20 21:04:34.006 [main] ReportManager - Assert that the element located by "By.xpath: //h3[contains (text(),'Employee')]" is visible; hidden attribute is equal to "null".
+[DEBUG] 2025-06-20 21:04:34.109 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:34.546 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_21-04-34-544_20062025'
+[INFO ] 2025-06-20 21:04:34.547 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-06-20 21:04:34.547 [main] ReportManager - Assertion passed
+[INFO ] 2025-06-20 21:04:34.548 [main] ReportManager - Total Passed: 12
+[INFO ] 2025-06-20 21:04:34.548 [main] ReportManager - Total Failed: 1
+[INFO ] 2025-06-20 21:04:34.551 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verify_navigation_to_employee_list'
+[INFO ] 2025-06-20 21:04:34.552 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                           Finished Execution of Test Method: 'Tests.homepage_test.verify_navigation_to_employee_list'                           
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-06-20 21:04:34.556 [main] ReportManager - 
 [0;7m------------------------------------------------------------------------------------------------------------------------------------------------
                                              Starting execution of after class configuration method                                             
-                                                         'Tests.sign_upTest.afterClass'                                                         
+                                                        'Tests.homepage_test.afterClass'                                                        
 ------------------------------------------------------------------------------------------------------------------------------------------------
 [0m
-[INFO ] 2024-11-24 15:38:56.469 [main] ReportManager - Successfully Closed Driver.
-[INFO ] 2024-11-24 15:38:56.472 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterClass'
-[INFO ] 2024-11-24 15:38:56.475 [main] ReportManager - 
+[INFO ] 2025-06-20 21:04:34.559 [main] ReportManager - ￢ﾜﾅ Test report generated: D:\project CVB\Site Assured QA framework\reports\test_report.html
+[INFO ] 2025-06-20 21:04:40.340 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2025-06-20 21:04:40.341 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterClass'
+[INFO ] 2025-06-20 21:04:40.342 [main] ReportManager - 
 [0;7m------------------------------------------------------------------------------------------------------------------------------------------------
                                            Starting execution of engine tear down configuration method                                           
                                         'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
 ------------------------------------------------------------------------------------------------------------------------------------------------
 [0m
-[INFO ] 2024-11-24 15:38:56.476 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
-[INFO ] 2024-11-24 15:38:56.505 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log: 20241124-153856'
-[INFO ] 2024-11-24 15:38:56.510 [main] ReportManager - Successfully created attachment 'HTML - Checkpoints Report'
-[INFO ] 2024-11-24 15:38:56.517 [main] ReportManager - Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.
-[INFO ] 2024-11-24 15:38:56.518 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Issues log CSV: 20241124-153856'
-[INFO ] 2024-11-24 15:38:56.520 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: engineTearDown'
-[INFO ] 2024-11-24 15:38:56.570 [main] ReportManager - ===============================================
-[INFO ] 2024-11-24 15:38:56.570 [main] ReportManager - WEB_Regression_Pack
-[INFO ] 2024-11-24 15:38:56.570 [main] ReportManager - Total tests run: 1, Passes: 0, Failures: 0, Skips: 1
-[INFO ] 2024-11-24 15:38:56.570 [main] ReportManager - Configuration Failures: 1, Skips: 0
-[INFO ] 2024-11-24 15:38:56.570 [main] ReportManager - ===============================================
-[INFO ] 2024-11-24 15:38:56.574 [main] ReportManager - 
+[INFO ] 2025-06-20 21:04:40.343 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2025-06-20 21:04:40.345 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log: 20250620-210440'
+[INFO ] 2025-06-20 21:04:40.349 [main] ReportManager - Successfully created attachment 'HTML - Checkpoints Report'
+[INFO ] 2025-06-20 21:04:40.351 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: engineTearDown'
+[INFO ] 2025-06-20 21:04:40.373 [main] ReportManager - ===============================================
+[INFO ] 2025-06-20 21:04:40.374 [main] ReportManager - WEB_Regression_Pack
+[INFO ] 2025-06-20 21:04:40.374 [main] ReportManager - Total tests run: 13, Passes: 13, Failures: 0, Skips: 0
+[INFO ] 2025-06-20 21:04:40.374 [main] ReportManager - ===============================================
+[INFO ] 2025-06-20 21:04:40.377 [main] ReportManager - 
 [0;7m------------------------------------------------------------------------------------------------------------------------------------------------
                                            This test run was powered by [1mSHAFT v.8.4.20241024[22m                                           
                                SHAFT [1;4mis and will always be 100% FREE[22;24m for commercial and private use                               
@@ -185,11 +486,11 @@
                                    Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
 ------------------------------------------------------------------------------------------------------------------------------------------------
 [0m
-[INFO ] 2024-11-24 15:38:56.585 [] ReportManager - 
+[INFO ] 2025-06-20 21:04:40.381 [main] ReportManager - Executing: "C:\Users\Karee\.m2\repository\allure\allure-2.30.0/bin/allure.bat generate --single-file --clean 'allure-results' -o 'D:\project CVB\Site Assured QA framework\target\allure-report' --report-name 'Test run report'" locally.
+[INFO ] 2025-06-20 21:04:40.390 [] ReportManager - 
 [0;7m------------------------------------------------------------------------------------------------------------------------------------------------
                                                          Test Execution Summary Results                                                         
-                                              Total Cases: 1 --> Passed: 0 | Failed: 0 | Skipped: 1                                              
+                                             Total Cases: 13 --> Passed: 13 | Failed: 0 | Skipped: 0                                             
 ------------------------------------------------------------------------------------------------------------------------------------------------
 [0m
-[INFO ] 2024-11-24 15:38:56.587 [main] ReportManager - Executing: "C:\Users\Karee\.m2\repository\allure\allure-2.30.0/bin/allure.bat generate --single-file --clean 'allure-results' -o 'D:\project MD voice\Test Automation Framework\SHAFT_ENGINE\target\allure-report' --report-name 'Test run report'" locally.
-[INFO ] 2024-11-24 15:39:00.239 [main] ReportManager - Executing: ".\allure-report\2024-11-24_15-39-00-230_AllureReport.html" locally.
+[INFO ] 2025-06-20 21:04:49.562 [main] ReportManager - Executing: ".\allure-report\2025-06-20_21-04-49-557_AllureReport.html" locally.

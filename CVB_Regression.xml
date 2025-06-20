@@ -4,20 +4,11 @@
 <suite name="WEB_Regression_Pack">
 
     <test thread-count="1" name="CVB_Regression" enabled="true">
-    
- 
         <classes>
-
-    <class name="Tests.sign_upTest">
-
-            <parameter name="loginname" value="standard_user"/>
-            <parameter name="password" value="secret_sauce"/>
-       
-            </class>
-   
+    <class name="Tests.homepage_test">
+            <parameter name="loginname" value="siteassured@gmail.com"/>
+            <parameter name="password" value="Admin!321#"/>
+    </class>
         </classes>
     </test>
-
 </suite>
-
-
