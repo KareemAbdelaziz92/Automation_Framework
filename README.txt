@@ -1,5 +1,3 @@
-# ✅ CVB - Java Automation Testing Framework
-
 ## 🧩 Overview
 
 it is a powerful and modular Java-based test automation framework built for robust and scalable UI testing.  
@@ -27,11 +25,11 @@ This framework was designed to ensure **code quality**, **maintainability**, and
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/KareemAbdelaziz92/CVB.git
+git clone https://github.com/KareemAbdelaziz92/Automation_Framework.git
 
 ### 2. Move to the source where POM file is exist 
 
-cd CVB
+cd Automation_Framework
 
 ### 3. Move to the source where POM file is exist
 
